@@ -12,8 +12,7 @@
   "author": "Semenuk",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "@types/node": "^16.11.36"
+    "@types/node": "^16.11.36",
+    "express": "^4.18.1"
   }
-
 }
