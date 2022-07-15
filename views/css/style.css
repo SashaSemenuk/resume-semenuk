@@ -1,0 +1,253 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+   background-color:#83aed3 ;
+}
+
+
+
+.main-section{
+   display: flex;
+   flex-direction: row-reverse;
+   width: 1200px;
+   background-color: #f7f7f7c9;
+   margin: 40px auto;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+@media (max-width:1200px){
+   .main-section{
+       max-width: 970px;
+   }
+}
+@media (max-width:992px) {
+   .main-section {
+       max-width: 750px;
+   }
+}
+@media (max-width:767px) {
+   .main-section {
+       max-width:none;
+   }
+}
+/* main content section */
+
+.otstup-Front-End-Developer{
+   padding: 0 0 0 55px;
+}
+.main-content-section{
+   padding: 100px 90px;
+}
+.main-content-title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 27px;   
+   color: black;
+   margin-bottom: 10px;
+}
+/* abot me section */
+
+.about-me{
+   margin: 0 0 40px 0;
+}
+
+.about-me-profesion{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FB6D3A;
+   margin: 0 0 20px 0;
+}
+
+.abot-me-name{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 45px;
+   line-height: 55px;
+   color: #000;
+   margin: 20px 0 25px 0;
+}
+
+.abot-me-text{
+   width: 400px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+
+}
+/* main project section */
+.my-projects{
+margin: 0 0 50px 0;
+}
+.my-projects-list{
+   padding:0 0 0 17px;
+}
+
+.my-projects-item{
+   color: #000;
+   font-weight: bold;
+}
+.my-projects-text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   margin-left: 5px;
+}
+.my-projects-links
+{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+
+.my-projects-bracket{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: black;
+}
+/* my work */
+.my-expirions-company{
+color: #FB6D3A;}
+.my-work-expirions-position{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000;
+   margin-bottom: 0 0 10px 0;}
+.my-work-expirions-period{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #A8A8A8;
+   margin-bottom: 0 0 10px 0;}
+.my-work-expirions-divider{
+   color: black;}
+.my-work-expirions-duties{
+   padding: 0 0 0 18px;}
+.my-work-expirions-text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;}
+
+
+.my-company-3{
+   margin: 0 0 15px 0;
+}
+
+.my-company-2{
+   margin: 0 0 20px 0;  
+}
+
+.my-company-1{
+   margin: 0 0 40px 0;  
+}
+
+.Professional-development{
+   margin: 70px 0 40px 0;
+}
+
+/* my education */
+.my-education-position{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   color: #FB6D3A;
+   margin: 20px 0 -10px 0;
+}
+.my-work-education-period{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: hsl(0, 0%, 66%);
+   margin: 10px 0 10px 0; 
+}
+
+.my-work-education-divider{
+   color: rgba(9, 9, 9, 0.802);
+}
+
+.my-education-management{
+   margin: 12px 0 10px 0;
+   color: rgba(17, 16, 16, 0.834);
+}
+
+/* sidebar section */
+.sidebar-section{
+   background-color: #486177;
+   width: 370px;
+   padding: 40px 0px
+
+}
+
+.contact-section,
+.hard-section,
+.tech-section{
+   margin: 50px 0 0 40px;
+}
+
+.soft-section{
+   margin: 45px 0 0 40px;
+}
+
+.sidebar-title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   height: 27px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+/* contact section */
+.E, 
+.C{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: #fff;
+   margin-right: 7px;
+}
+a:hover {
+   color: #FB6D3A;
+}
+.link-contact{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #83aed3;
+
+}
+
+/* tech-soft section */
+.table-tech-section,
+.table-hard-section,
+.table-soft-section{
+   padding-left: 17px;
+}
+
+.section-item{
+   color: #FB6D3A;
+}
+
+.section-item-text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+color: #fff;
+}
