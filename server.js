@@ -2,6 +2,11 @@ const express = require('express');
 const PORT = process.env.PORT || 3000;
 const app = express();
 const path = require('path');
+const fs = require('fs');
+
+app.set('view engine', 'ejs');
+
+const createPath = (page) => path.resolve(__dirname, 'views', `${page}.ejs`);
 
 app.listen(PORT, (error) => {
     error ? console.log((error)) : console.log((`listening port ${PORT}...`))
@@ -9,8 +14,15 @@ app.listen(PORT, (error) => {
 
 app.use(express.urlencoded({extended: false}));
 
+app.use('/styles', express.static(path.join(__dirname, 'styles')));
+
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname+'/views/index.html'));
+    res.render(createPath('index'));
 });
+
+
+
+
+
 
 
