@@ -2,9 +2,6 @@ body{
    font-family: 'Montserrat', sans-serif;
    background-color:#83aed3 ;
 }
-
-
-
 .main-section{
    display: flex;
    flex-direction: row-reverse;
@@ -40,7 +37,7 @@ body{
    font-style: normal;
    font-weight: bold;
    font-size: 22px;
-   line-height: 27px;   
+   line-height: 27px;
    color: black;
    margin-bottom: 10px;
 }
@@ -147,11 +144,11 @@ color: #FB6D3A;}
 }
 
 .my-company-2{
-   margin: 0 0 20px 0;  
+   margin: 0 0 20px 0;
 }
 
 .my-company-1{
-   margin: 0 0 40px 0;  
+   margin: 0 0 40px 0;
 }
 
 .Professional-development{
@@ -173,7 +170,7 @@ color: #FB6D3A;}
    font-size: 14px;
    line-height: 24px;
    color: hsl(0, 0%, 66%);
-   margin: 10px 0 10px 0; 
+   margin: 10px 0 10px 0;
 }
 
 .my-work-education-divider{
@@ -192,7 +189,6 @@ color: #FB6D3A;}
    padding: 40px 0px
 
 }
-
 .contact-section,
 .hard-section,
 .tech-section{
@@ -212,7 +208,7 @@ color: #FB6D3A;}
    margin-bottom: 10px;
 }
 /* contact section */
-.E, 
+.E,
 .C{
    font-style: normal;
    font-weight: bold;
